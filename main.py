@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify
 from removeBG import removeImageBG
 from flask_cors import CORS
 import io
